@@ -9,7 +9,7 @@ HungryOsori는 웹 크롤링 기반 Push 서비스입니다. 웹에서 컨텐츠
 * iOS : -
 
 ## Architecture
-[img](https://github.com/HyOsori/HungryOsori/blob/master/hungryosori_architecture.png?raw=true)
+![img_architecture](./hungryosori_architecture.png)
 * Crawler : 오픈소스로 관리, 풀리퀘를 통해 새로운 크롤러를 등록할 수 있습니다.
 * API Server
 * Push Server
