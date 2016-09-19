@@ -5,19 +5,41 @@ HungryOsori는 웹 크롤링 기반 Push 서비스입니다. 웹에서 컨텐츠
 굳굳 짱짱.... 갈 길이 멀다
 
 ## Install
-Android : -
-iOS : -
+* Android : -
+* iOS : -
+
+## Architecture
+
+* Crawler : 오픈소스로 관리, 풀리퀘를 통해 새로운 크롤러를 등록할 수 있습니다.
+* API Server
+* Push Server
+* Android/iOS 앱
 
 ## Source
-- [WebCrawler]() : 웹의 변화를 감지하는 크롤러를 올리는 레포
-- [HungryOsori-iOS](https://github.com/HyOsori/HungryOsori-iOS) : iOS 앱
-- [HungryOsori-Android](https://github.com/HyOsori/HungryOsori-Android) : Android 앱
-- [HungryOsori-Server](https://github.com/HyOsori/HungryOsori-Server) : 회원관리, 크롤러 구독을 위한 서버 
-- [HungryOsori-PushServer](https://github.com/HyOsori/HungryOsori-PushServer) : 웹의 변화를 확인하고, Push 메시지를 발송하는 서버
-- [HungryOsori-TestServer](https://github.com/HyOsori/HungryOsori-TestServer) : 테스트를 위해 만든 서버
+* [Osori-WebCrawler](https://github.com/HyOsori/Osori-WebCrawler) : 웹의 변화를 감지하는 크롤러를 올리는 레포
+* [HungryOsori-iOS](https://github.com/HyOsori/HungryOsori-iOS) : iOS 앱
+* [HungryOsori-Android](https://github.com/HyOsori/HungryOsori-Android) : Android 앱
+* [HungryOsori-Server](https://github.com/HyOsori/HungryOsori-Server) : 회원관리, 크롤러 구독을 위한 서버 
+* [HungryOsori-PushServer](https://github.com/HyOsori/HungryOsori-PushServer) : 웹의 변화를 확인하고, Push 메시지를 발송하는 서버
+* [HungryOsori-TestServer](https://github.com/HyOsori/HungryOsori-TestServer) : 테스트를 위해 만든 서버 
 
 ## Contributors
+### Android
+* [GunjuKo](https://github.com/GunjuKo)
+* [kkyumin](https://github.com/kkyumin)
+
+### iOS
 * [kanak87](https://github.com/kanak87)
+* [seubseub](https://github.com/seubseub)
+
+### Push Server
+* [jhwon0415](https://github.com/jhwon0415)
+* [CameliaOvO](https://github.com/CameliaOvO)
+* [doomsheart](https://github.com/doomsheart)
+
+### API Server
+* [knunu](https://github.com/knunu)
+* [bees1114](https://github.com/bees1114)
 
 ## License
 ```
